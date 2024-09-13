@@ -157,12 +157,57 @@ body {
     font-family: "Inter", sans-serif;
     color: white;
     text-transform: uppercase;
-    padding: 6px 16px;
+    padding: 16px 32px;
     border-radius: 5px;
+
 }
 
 .btnTrans:hover {
     background-color: #FF0000;
     border: none;
+    cursor: grab;
+}
 
+
+/* date time section style */
+.dateTime {
+    background: linear-gradient(#ff000025, #ff000000);
+    width: 100%;
+    border-radius: 15px;
+    padding: 100px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.dateTime h4 {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.redText {
+    color: #FF0000;
+
+}
+
+.redBtn {
+
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 48px;
+}
+
+.redBtn:hover {
+    cursor: grab;
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
 }
