@@ -1,0 +1,54 @@
+/* Custom font imports */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1320px;
+    padding: 50px 100px 0;
+
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 400px;
+    font-family: "Merriweather", serif;
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.bannerText {
+    position: absolute;
+    height: 99%;
+    top: 0;
+    background: radial-gradient(#00000065, #000000);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+#BannerTitle {
+    margin-top: 0;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+#BannerSubTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
